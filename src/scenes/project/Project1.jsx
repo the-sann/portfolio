@@ -1,0 +1,32 @@
+import img from "../../assets/image.jpg";
+
+function Project1() {
+  return (
+    <div className="w-full flex justify-center mt-10 px-2 md:px-4">
+      <div className="flex flex-col md:flex-row border border-gray-200 shadow-lg rounded-xl overflow-hidden w-full md:max-w-6xl">
+        {/* Image Section */}
+        <div className="w-full md:w-1/2 h-64 md:h-auto order-1 md:order-2">
+          <img
+            src={img}
+            alt="Project Screenshot"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Text Section */}
+        <div className="flex flex-col justify-center gap-6 p-6 md:p-8 w-full md:w-1/2 order-2 md:order-1">
+          <h2 className="font-heading text-3xl">Project Name</h2>
+          <p className="text-gray-700">
+            I created a room rent website that manages all the customer info,
+            payment dates, and even allows long-term payments.
+          </p>
+          <button className="px-6 py-2 bg-secondary text-white cursor-pointer rounded-md w-max">
+            View Project
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Project1;
