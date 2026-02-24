@@ -1,4 +1,4 @@
-import profile from "../../assets/profile-3.png";
+import profile from "../../assets/landingpage.jpg";
 const LandingPage = () => {
   return (
     <>
