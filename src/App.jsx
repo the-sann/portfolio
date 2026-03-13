@@ -4,6 +4,7 @@ import Home from "./scenes/home/Home";
 import About from "./scenes/about/About";
 import Footer from "./scenes/global/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import useScrollToTop from "./hooks/useScrollToTop";
 
 function App() {
   const showScrollToTop = useScrollToTop();
