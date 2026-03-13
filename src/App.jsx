@@ -3,8 +3,11 @@ import Navbar from "./scenes/global/Navbar";
 import Home from "./scenes/home/Home";
 import About from "./scenes/about/About";
 import Footer from "./scenes/global/Footer";
+import { useScrollToTop } from "./hooks/useScrollToTOp";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  const showScrollToTop = useScrollToTop();
   return (
     <>
       <div className="">
@@ -13,6 +16,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <ScrollToTop showScrollTop={showScrollToTop} />
         <Footer />
       </div>
     </>

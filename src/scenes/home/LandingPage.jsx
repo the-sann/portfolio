@@ -1,4 +1,5 @@
 import profile from "../../assets/landingpage.jpg";
+import flowcvv1 from "../../assets/cv/flow-cv-v1.pdf";
 const LandingPage = () => {
   return (
     <>
@@ -22,12 +23,22 @@ const LandingPage = () => {
             profesional one then they need a website for thier own product{" "}
           </p>
           <div className="flex gap-4">
-            <button className="px-4 py-2 rounded-md cursor-pointer bg-secondary ">
+            <a
+              href={flowcvv1}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-secondary text-white rounded-md"
+            >
               View CV
-            </button>
-            <button className="px-4 py-2 rounded-md text-white cursor-pointer bg-black ">
-              Project
-            </button>
+            </a>
+
+            <a
+              className="px-4 py-2 rounded-md text-white cursor-pointer bg-black "
+              target="_blank"
+              href="https://github.com/SANN-py"
+            >
+              Git Hub
+            </a>
           </div>
         </div>
       </div>
