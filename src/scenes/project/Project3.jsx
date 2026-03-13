@@ -2,7 +2,7 @@ import img from "../../assets/todo_screenshot.png";
 
 function Project3() {
   return (
-    <div className="w-full flex justify-center mt-10 px-4">
+    <div className="w-full flex justify-center mt-10 px-2">
       <div className="flex flex-col md:flex-row border border-gray-200 shadow-lg rounded-xl overflow-hidden w-full max-w-6xl ">
         <div className=" w-full md:w-1/2 h-64 md:h-auto order-1 md:order-2">
           <img
