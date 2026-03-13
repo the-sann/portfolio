@@ -3,7 +3,6 @@ import Navbar from "./scenes/global/Navbar";
 import Home from "./scenes/home/Home";
 import About from "./scenes/about/About";
 import Footer from "./scenes/global/Footer";
-import { useScrollToTop } from "./hooks/useScrollToTOp";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
