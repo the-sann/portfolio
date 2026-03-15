@@ -14,21 +14,22 @@ function Project3() {
         {/* Left Text Section */}
         <div className="flex flex-col justify-center gap-6 p-6 md:p-8 w-full md:w-1/2 order-2 md:order-1">
           <h2 className="font-heading text-3xl">Todo App</h2>
-          <p className="text-gray-700">
-            I created a room rent website that manages all the customer info,
-            payment dates, and even allows long-term payments.
+          <p className="text-white p-8 text-xl bg-gray-500">
+            I created with basic form and DOM. Using simple javascription
+            function like create update delete and store it to local storage
+            also some responsive with tailwindcss
           </p>
           <div className="flex gap-5 ">
             <a
-              href="#"
+              href="https://sann-py.github.io/todo/"
               target="_blank"
               rel="noopener noreferrer"
-              className=" hover:cursor-not-allowed px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"
+              className="  px-6 py-2 bg-green-400 text-white cursor-pointer rounded-md inline-block w-40 text-center"
             >
               DEMO
             </a>
             <a
-              href="#"
+              href="https://github.com/SANN-py/todo"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"

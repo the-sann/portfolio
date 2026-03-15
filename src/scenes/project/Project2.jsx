@@ -11,11 +11,12 @@ function Project2() {
           </div>
           <div className="flex flex-col justify-center gap-6 p-6 md:p-8 w-full md:w-1/2 order-2 md:order-2">
             <h2 className="font-heading text-3xl">Admin Dashboard</h2>
-            <p className="text-gray-700">
-              I created a room rent website that manages all the customer info,
-              payment dates, and even allows long-term payments.
+            <p className="text-white bg-red-400 text-xl p-8">
+              this is a school project from laravel term. this site doesn't have
+              DEMO and Source code yet.But in future i will explore how to
+              hosing laravel and database
             </p>
-            <div className="flex gap-5 ">
+            {/* <div className="flex gap-5 ">
               <a
                 // href="#"
                 // target="_blank"
@@ -32,7 +33,7 @@ function Project2() {
               >
                 Source Code
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

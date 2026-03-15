@@ -27,7 +27,7 @@ const LandingPage = () => {
               href={flowcvv1}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2 bg-secondary text-white rounded-md"
+              className="px-6 py-2 bg-blue-400 text-white rounded-md"
             >
               View CV
             </a>

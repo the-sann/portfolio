@@ -1,26 +1,42 @@
-import { FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+  FaTelegram,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center gap-4 text-2xl mt-4 p-4 bg-white">
+    <footer className="flex justify-center items-center gap-6 text-2xl mt-8 p-6 bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800">
+      {/* LinkedIn */}
       <a
         href="https://www.linkedin.com/in/kimsann-mao-09baa9243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         target="_blank"
         rel="noopener noreferrer"
+        className="text-gray-600 dark:text-gray-400 hover:text-blue-700 transition-colors duration-300"
       >
-        <FaLinkedin className="hover:text-blue-700" />
+        <FaLinkedin />
       </a>
+
+      {/* Telegram */}
       <a
-        href="https://www.instagram.com/yourprofile"
+        href="https://t.me/Kimsan_mao"
         target="_blank"
         rel="noopener noreferrer"
+        className="text-gray-600 dark:text-gray-400 hover:text-sky-500 transition-colors duration-300"
       >
-        <FaInstagram className="hover:text-pink-500" />
+        <FaTelegram />
       </a>
-      <a href="mailto:youremail@example.com">
-        <FaEnvelope className="hover:text-red-500" />
+
+      {/* Email */}
+      <a
+        href="mailto:kimsannmao025@gmail.com"
+        className="text-gray-600 dark:text-gray-400 hover:text-red-500 transition-colors duration-300"
+      >
+        <FaEnvelope />
       </a>
-    </div>
+    </footer>
   );
 };
+
 export default Footer;
