@@ -21,7 +21,7 @@ const LandingPage = () => {
           Hello, I'm Kimsann Mao
         </h1>
 
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 leading-relaxed text-lg">
           I am a junior full-stack developer passionate about building modern
           web applications. I started learning programming because I see the
           growing need for digital solutions in Cambodia. My goal is to help
