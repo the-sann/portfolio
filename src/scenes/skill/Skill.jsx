@@ -1,8 +1,8 @@
 function Skill() {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4 mt-10 bg-white ">
-        <div className="p-8 border-r-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 bg-white ">
+        <div className="p-8 md:border-r-2 border-b-2 md:border-b-0">
           <h1 className="text-4xl font-bold">CSS</h1>
           <p className="mt-2 text-gray-600">
             Styling modern and responsive user interfaces using CSS and
@@ -15,7 +15,7 @@ function Skill() {
           </ul>
         </div>
 
-        <div className="p-8 border-r-2">
+        <div className="p-8 md:border-r-2 border-b-2 md:border-b-0">
           <h1 className="text-4xl font-bold">React</h1>
           <p className="mt-2 text-gray-600">
             Building interactive and dynamic front-end applications with React.
