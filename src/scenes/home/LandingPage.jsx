@@ -47,7 +47,7 @@ const LandingPage = () => {
           </a>
           <a
             href="#about"
-            className="px-6 py-2 bg-black hover:bg-gray-800 text-white rounded-lg transition"
+            className="px-6 py-2 bg-red-500 hover:bg-red-400 text-white rounded-lg transition"
           >
             About Me
           </a>
