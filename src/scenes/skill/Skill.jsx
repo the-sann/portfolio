@@ -1,6 +1,10 @@
 function Skill() {
   return (
     <div>
+      <div className="flex flex-col justify-center items-center pt-20 ">
+        <p className="text-4xl font-heading ">Skill</p>
+        <div className="w-20 h-1 bg-yellow-500 mt-3"></div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 bg-white ">
         <div className="p-8 md:border-r-2 border-b-2 md:border-b-0">
           <h1 className="text-4xl font-bold font-heading">CSS</h1>

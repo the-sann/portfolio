@@ -28,7 +28,7 @@ const LandingPage = () => {
           local businesses grow by creating professional websites and systems.
         </p>
 
-        <div className="flex gap-4 mt-4">
+        <div className="grid grid-cols-1 items-center text-center md:grid-cols-3 gap-4 mt-4">
           <a
             href={flowcvv2}
             target="_blank"
@@ -44,6 +44,12 @@ const LandingPage = () => {
             className="px-6 py-2 bg-black hover:bg-gray-800 text-white rounded-lg transition"
           >
             GitHub
+          </a>
+          <a
+            href="#about"
+            className="px-6 py-2 bg-black hover:bg-gray-800 text-white rounded-lg transition"
+          >
+            About Me
           </a>
         </div>
       </div>
