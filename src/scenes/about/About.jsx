@@ -34,16 +34,17 @@ function About() {
               Work Experience
             </h2>
             <p className="leading-relaxed text-black  text-left md:text-justify p-6 text-xl ">
-              I am 25 years old. I graduated from high school in 2018 and
-              started studying Mathematics at the Royal University of Phnom Penh
-              (RUPP). However, when COVID-19 started in 2019, my financial
-              situation became difficult, and I had to stop my studies and start
-              working to support myself and my family. Over the years, I worked
-              different jobs while saving money and learning about life and
-              responsibility. In November 2024, I decided to start learning
-              Computer Science. My goal is to become a developer and build
-              websites that can help family business in cambodia grow and reach
-              more customers.
+              I started working as a cashier in 2018. In 2019, I worked as an
+              English teacher for kindergarten students. After the COVID-19
+              outbreak, I returned to my hometown for some time. At the end of
+              2020, I moved back to Phnom Penh and started working as a chef at
+              The Pizza Company until 2022, where I learned teamwork,
+              responsibility, and discipline. In 2022, I worked at Asia Master
+              while continuing to save money. After finishing my loan, I took a
+              short break and returned to Phnom Penh with a new goal: to
+              continue my education. To fulfill my mother's wish and improve my
+              future, I started studying Computer Science at Western SMC, where
+              I am currently learning web development.
             </p>
           </div>
         </div>

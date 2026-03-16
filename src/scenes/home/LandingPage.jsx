@@ -28,7 +28,7 @@ const LandingPage = () => {
           local businesses grow by creating professional websites and systems.
         </p>
 
-        <div className="grid grid-cols-1 items-center text-center md:grid-cols-3 gap-4 mt-4">
+        <div className="grid grid-cols-1 items-center text-center md:grid-cols-3  gap-4 mt-4">
           <a
             href={flowcvv2}
             target="_blank"
