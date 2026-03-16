@@ -1,5 +1,5 @@
 import profile from "../../assets/landingpage.jpg";
-import flowcvv1 from "../../assets/cv/flow-cv-v1.pdf";
+import flowcvv2 from "../../assets/cv/flow-cv-v2.pdf";
 
 const LandingPage = () => {
   return (
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <div className="md:w-1/2 flex flex-col gap-4">
         <p className="text-blue-500 font-semibold">Full-Stack Developer</p>
 
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold font-heading">
           Hello, I'm Kimsann Mao
         </h1>
 
@@ -30,7 +30,7 @@ const LandingPage = () => {
 
         <div className="flex gap-4 mt-4">
           <a
-            href={flowcvv1}
+            href={flowcvv2}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition"

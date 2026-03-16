@@ -19,9 +19,9 @@ const Navbar = () => {
           </p>
 
           <div className="font-sans md:flex gap-10  hidden text-xl ">
-            <Link to="/about">Me</Link>
-            <HashLink to="/#project">Project</HashLink>
-            <HashLink to="/#contact">Contact</HashLink>
+            <a href="#about">Me</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
           </div>
 
           {/* mobile hamburger */}
@@ -70,27 +70,27 @@ const Navbar = () => {
                 : "opacity-0 -translate-y-3 hidden"
             }`}
           >
-            <Link
-              to="/about"
+            <a
+              href="#about"
               className="hover:text-secondary transition cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Me
-            </Link>
-            <HashLink
-              to="/#project"
+            </a>
+            <a
+              href="#project"
               className="hover:text-secondary transition cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Project
-            </HashLink>
-            <HashLink
-              to="/#contact"
+            </a>
+            <a
+              href="#contact"
               className="hover:text-secondary transition cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </HashLink>
+            </a>
           </div>
         )}
       </nav>

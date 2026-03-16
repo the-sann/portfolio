@@ -2,13 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="mt-25">
-      <div className="flex md:flex-row flex-col w-full justify-between gap-12  md:px-8 ">
+    <div className=" py-20" id="about">
+      <div className="flex md:flex-row flex-col w-full justify-between gap-12   ">
         <div className="w-full md:w-1/2 space-y-5 px-3 mb-5">
           <h2 className="font-heading text-2xl font-semibold bg-red-400  p-4">
             Me
           </h2>
-          <p className="leading-relaxed text-white text-left md:text-justify bg-red-400 text-xl p-6">
+          <p className="leading-relaxed text-black text-left md:text-justify text-xl p-6">
             I am 25 years old. I graduated from high school in 2018 and started
             studying Mathematics at the Royal University of Phnom Penh (RUPP).
             However, when COVID-19 started in 2019, my financial situation
@@ -24,7 +24,7 @@ function About() {
           <h2 className="font-heading text-2xl font-semibold bg-blue-400 p-4">
             Work Experience
           </h2>
-          <p className="leading-relaxed text-white bg-blue-400 text-left md:text-justify p-6 text-xl ">
+          <p className="leading-relaxed text-black  text-left md:text-justify p-6 text-xl ">
             I am 25 years old. I graduated from high school in 2018 and started
             studying Mathematics at the Royal University of Phnom Penh (RUPP).
             However, when COVID-19 started in 2019, my financial situation

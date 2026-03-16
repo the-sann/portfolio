@@ -12,10 +12,7 @@ function App() {
     <>
       <div className="">
         <Navbar />
-        <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <Home />
         <ScrollToTop showScrollTop={showScrollToTop} />
         <Footer />
       </div>

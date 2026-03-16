@@ -1,3 +1,4 @@
+import About from "../about/About";
 import Contact from "../contact/Contact";
 import Project from "../project/Project";
 import Skill from "../skill/Skill";
@@ -8,6 +9,7 @@ const Home = () => {
     <div className="px-2 md:px-20 mt-4">
       <LandingPage />
       <Skill />
+      <About />
       <Project />
       <Contact />
     </div>
