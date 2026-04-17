@@ -1,5 +1,5 @@
 import profile from "../../assets/landingpage.jpg";
-import flowcvv2 from "../../assets/cv/flow-cv-v2.pdf";
+import flowcvv3 from "../../assets/cv/flow-cv-v3.pdf";
 
 const LandingPage = () => {
   return (
@@ -30,7 +30,7 @@ const LandingPage = () => {
 
         <div className="grid grid-cols-1 items-center text-center md:grid-cols-3  gap-4 mt-4">
           <a
-            href={flowcvv2}
+            href={flowcvv3}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition"

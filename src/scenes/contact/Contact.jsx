@@ -62,9 +62,8 @@ function Contact() {
               type="text"
               className="border border-gray-300 rounded-md p-3"
             />
-            {errors.name && (
-              <p className="text-red-400">{errors.name.message}</p>
-            )}
+
+            <p className="text-red-400">{errors.name?.message}</p>
           </div>
           {/* email */}
           <div className="flex gap-2 flex-col">
@@ -74,9 +73,8 @@ function Contact() {
               {...register("email")}
               className="border border-gray-300 rounded-md p-3"
             />
-            {errors.email && (
-              <p className="text-red-400">{errors.email.message}</p>
-            )}
+
+            <p className="text-red-400">{errors.email?.message}</p>
           </div>
           {/* message */}
           <div className="flex gap-2 flex-col">
@@ -86,9 +84,7 @@ function Contact() {
               rows="4"
               className="border border-gray-300 rounded-md p-3 resize-none focus:outline-none focus:ring-2 focus:ring-yellow-500"
             ></textarea>
-            {errors.message && (
-              <p className="text-red-400">{errors.message.message}</p>
-            )}
+            <p className="text-red-400">{errors.message?.message}</p>
           </div>
           {/* button submit */}
           <div className="flex gap-2 flex-col mt-4">
