@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img from "../../assets/project_image/kimsannquiz.png";
+import img from "../../assets/project_image/pos.png";
 
 function Project_Express() {
   return (
