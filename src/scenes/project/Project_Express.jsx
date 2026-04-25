@@ -7,7 +7,10 @@ function Project_Express() {
       <div className="flex flex-col md:flex-row border border-gray-200 shadow-lg rounded-xl overflow-hidden w-full md:max-w-6xl">
         {/* Image Section */}
         <div className="w-full md:w-1/2 h-64 md:h-auto order-1 md:order-2">
-          <a href="https://kimsannquiz.netlify.app/" target="_blank">
+          <a
+            href="https://sala-it-express-learning-frontend.vercel.app/"
+            target="_blank"
+          >
             <img
               src={img}
               alt="Project Screenshot"

@@ -11,10 +11,10 @@ const Project = () => {
         <div className="w-20 h-1 bg-yellow-500 mt-3"></div>
       </div>
       <div>
+        <Project_Express />
         <Project1 />
         <Project2 />
         <Project3 />
-        <Project_Express />
       </div>
     </div>
   );
