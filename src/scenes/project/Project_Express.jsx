@@ -22,7 +22,11 @@ function Project_Express() {
         {/* Text Section */}
         <div className="flex flex-col justify-center gap-6 p-6 md:p-8 w-full md:w-1/2 order-2 md:order-1">
           <h2 className="font-heading text-3xl font-semibold">POS system</h2>
-          <p className="text-white bg-blue-400 text-xl p-8">use Sequelize</p>
+          <p className="text-white bg-blue-400 text-xl p-8">
+            Full stack use Sequelize use express use shadcnui integrate with aba
+            payway use React Typescript use TanstackForm use Axios use zod
+            validate
+          </p>
           <div className="flex gap-5">
             <a
               href="https://sala-it-express-learning-frontend.vercel.app/"
