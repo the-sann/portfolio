@@ -18,7 +18,8 @@ const Navbar = () => {
             </Link>
           </p>
 
-          <div className="font-sans md:flex gap-10  hidden text-xl ">
+          <div className="font-heading md:flex gap-10  hidden text-xl ">
+            <a href="#home">Home</a>
             <a href="#about">Me</a>
             <a href="#project">Project</a>
             <a href="#contact">Contact</a>
