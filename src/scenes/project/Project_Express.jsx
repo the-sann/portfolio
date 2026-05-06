@@ -27,6 +27,14 @@ function Project_Express() {
             payway use React Typescript use TanstackForm use Axios use zod
             validate
           </p>
+          <ul>
+            <p>To test</p>
+            <li>First navigate to product</li>
+            <li>Second navigate to Sale POS</li>
+          </ul>
+          <p className="bg-amber-500 p-2 rounded-xl text-white">
+            Note that abapayway is unable due to expired
+          </p>
           <div className="flex gap-5">
             <a
               href="https://sala-it-express-learning-frontend.vercel.app/"
