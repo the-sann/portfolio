@@ -1,6 +1,6 @@
 import img from "../../assets/todo_screenshot.png";
 
-function Project3() {
+function TodoProject() {
   return (
     <div className="w-full flex justify-center mt-10 px-2">
       <div className="flex flex-col md:flex-row border border-gray-200 shadow-lg rounded-xl overflow-hidden w-full max-w-6xl ">
@@ -43,4 +43,4 @@ function Project3() {
   );
 }
 
-export default Project3;
+export default TodoProject;

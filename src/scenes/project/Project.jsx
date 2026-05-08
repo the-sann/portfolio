@@ -1,7 +1,9 @@
-import Project1 from "./Project1";
-import Project2 from "./Project2";
-import Project3 from "./Project3";
+import Project1 from "./QuizApp";
+import Project2 from "./AdminDashboard";
+import TodoProject from "./TodoApp";
 import Project_Express from "./Project_Express";
+import AdminDashboard from "./AdminDashboard";
+import QuizApp from "./QuizApp";
 
 const Project = () => {
   return (
@@ -12,9 +14,9 @@ const Project = () => {
       </div>
       <div>
         <Project_Express />
-        <Project1 />
-        <Project2 />
-        <Project3 />
+        <QuizApp />
+        <AdminDashboard />
+        <TodoProject />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../assets/project_image/school_laravel_project.png";
 
-function Project2() {
+function AdminDashboard() {
   return (
     <div>
       <div className="flex w-full mt-10 px-2 justify-center">
@@ -12,28 +12,27 @@ function Project2() {
           <div className="flex flex-col justify-center gap-6 p-6 md:p-8 w-full md:w-1/2 order-2 md:order-2">
             <h2 className="font-heading text-3xl">Admin Dashboard</h2>
             <p className="text-white bg-red-400 text-xl p-8">
-              this is a school project from laravel term. this site doesn't have
-              DEMO and Source code yet.But in future i will explore how to
-              hosing laravel and database
+              this is a school project from laravel term. and this just got
+              deploy with Digital Ocean. Note: I am not config DNS yet.
             </p>
-            {/* <div className="flex gap-5 ">
+            <div className="flex gap-5 ">
               <a
-                // href="#"
-                // target="_blank"
+                href="http://206.189.88.223"
+                target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:cursor-not-allowed px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"
               >
                 DEMO
               </a>
               <a
-                // href="#"
-                // target="_blank"
+                href="https://github.com/the-sann/laravel-school-project"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"
               >
                 Source Code
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -41,4 +40,4 @@ function Project2() {
   );
 }
 
-export default Project2;
+export default AdminDashboard;

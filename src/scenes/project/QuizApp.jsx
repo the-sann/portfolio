@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import img from "../../assets/project_image/kimsannquiz.png";
 
-function Project1() {
+function QuizApp() {
   return (
     <div className="w-full flex justify-center mt-10 px-2 md:px-4">
       <div className="flex flex-col md:flex-row border border-gray-200 shadow-lg rounded-xl overflow-hidden w-full md:max-w-6xl">
@@ -46,4 +46,4 @@ function Project1() {
   );
 }
 
-export default Project1;
+export default QuizApp;
