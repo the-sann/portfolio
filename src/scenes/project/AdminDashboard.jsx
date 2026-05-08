@@ -21,7 +21,7 @@ function AdminDashboard() {
                 href="http://206.189.88.223"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" hover:cursor-not-allowed px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"
+                className=" px-6 py-2 bg-secondary text-white cursor-pointer rounded-md inline-block w-40 text-center"
               >
                 DEMO
               </a>
