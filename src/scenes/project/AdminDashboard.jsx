@@ -14,6 +14,7 @@ function AdminDashboard() {
             <p className="text-white bg-red-400 text-xl p-8">
               this is a school project from laravel term. and this just got
               deploy with Digital Ocean. Note: I am not config DNS yet.
+              <span>Visit Here: http://206.189.88.223</span>
             </p>
             <div className="flex gap-5 ">
               <a
