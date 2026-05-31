@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
+  // state
   const [isOpen, setIsOpen] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -18,9 +19,26 @@ const Navbar = () => {
             </Link>
           </p>
 
-          <div className="font-heading md:flex gap-10  hidden text-xl ">
-            <a href="#home">Home</a>
-            <a href="#about">Me</a>
+          <div className="font-heading md:flex gap-10  hidden text-xl md:justify-center md:items-center">
+            <a href="#home" className="">
+              Home
+            </a>
+            <div className="relative group py-2">
+              <a href="#about" className="cursor-pointer">
+                Me
+              </a>
+
+              <div className="absolute top-full left-0 hidden group-hover:block w-48 bg-white border border-gray-200 shadow-xl rounded-md p-4">
+                <ul className="space-y-2">
+                  <li className="hover:text-secondary cursor-pointer transition">
+                    My Trip
+                  </li>
+                  <li className="hover:text-secondary cursor-pointer transition">
+                    Hobbies
+                  </li>
+                </ul>
+              </div>
+            </div>
             <a href="#project">Project</a>
             <a href="#contact">Contact</a>
           </div>

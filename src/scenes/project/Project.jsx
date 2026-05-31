@@ -4,6 +4,7 @@ import TodoProject from "./TodoApp";
 import Project_Express from "./Project_Express";
 import AdminDashboard from "./AdminDashboard";
 import QuizApp from "./QuizApp";
+import Weather from "./frontendMentor/Weather";
 
 const Project = () => {
   return (
@@ -17,6 +18,7 @@ const Project = () => {
         <QuizApp />
         <AdminDashboard />
         <TodoProject />
+        <Weather />
       </div>
     </div>
   );
