@@ -34,9 +34,7 @@ const Navbar = () => {
             Home
           </a>
 
-          <a href="/technology" className="cursor-pointer">
-            Technology
-          </a>
+          <Link to="/technology">Technology</Link>
 
           <div className="relative group py-2">
             <a href="#about" className="cursor-pointer">
