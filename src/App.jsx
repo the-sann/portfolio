@@ -1,21 +1,25 @@
 import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./scenes/global/Navbar";
-import Home from "./scenes/home/Home";
-import About from "./scenes/about/About";
 import Footer from "./scenes/global/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import { useScrollToTop } from "./hooks/useScrollToTop";
 
+import Home from "./scenes/home/Home";
+import Technology from "./scenes/technology/Technology";
+
 function App() {
   const showScrollToTop = useScrollToTop();
+
   return (
     <>
-      <div className="">
-        <Navbar />
-        <Home />
-        <ScrollToTop showScrollTop={showScrollToTop} />
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/technology" element={<Technology />} />
+      </Routes>
+
+      <ScrollToTop showScrollTop={showScrollToTop} />
+      <Footer />
     </>
   );
 }
