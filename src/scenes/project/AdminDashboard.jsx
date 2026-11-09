@@ -1,10 +1,20 @@
-import React from "react";
-import img from "../../assets/project_image/school_laravel_project.png";
+import { data } from "../../const/data";
+import ProjectCard from "../../components/ProjectCard";
 
 function AdminDashboard() {
   return (
     <div>
-      <div className="flex w-full mt-10 px-2 justify-center">
+      {data.adminDashboard.map((project) => (
+        <ProjectCard
+          key={project.id}
+          img={project.img}
+          title={project.title}
+          description={project.description}
+          demo={project.demo}
+          src_code={project.src_code}
+        />
+      ))}
+      {/* <div className="flex w-full mt-10 px-2 justify-center">
         <div className="flex flex-col md:flex-row border border-gray-200 w-full h-auto max-w-6xl shadow-lg rounded-xl overflow-hidden">
           <div className="md:w-1/2 w-full order-1 md:order-1 h-64 md:h-auto">
             <img src={img} alt="" className="h-full w-full object-cover " />
@@ -36,7 +46,7 @@ function AdminDashboard() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

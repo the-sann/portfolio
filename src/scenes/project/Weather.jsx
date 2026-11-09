@@ -1,11 +1,10 @@
-// ProjectsPage.jsx (or wherever you use the Weather component)
-import ProjectCard from "../ProjectCard";
-import dataWeather from "../data/dataFrontendMentor/weather";
+import ProjectCard from "../../components/ProjectCard";
+import { data } from "../../const/data";
 
 function Weather() {
   return (
     <div>
-      {dataWeather.map((project) => (
+      {data.weather.map((project) => (
         <ProjectCard
           key={project.id}
           img={project.img}
