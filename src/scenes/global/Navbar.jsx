@@ -66,7 +66,7 @@ const Navbar = () => {
             Me
           </a>
 
-          <div className="absolute top-full left-0 hidden group-hover:block hover:bg-gray-200 w-48  border transition border-gray-200 shadow-xl rounded-2xl p-4">
+          <div className="absolute top-full left-0 hidden group-hover:block  w-48  border transition border-gray-200 shadow-xl rounded-2xl p-4">
             <ul className="space-y-2">
               <li className="hover:text-secondary cursor-pointer transition">
                 My Trip

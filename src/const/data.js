@@ -1,9 +1,14 @@
-import img from "../../src/assets/project_image/weather_app.png";
+import img_weather from "../../src/assets/project_image/weather_app.png";
+import img_school_laravel from "../../src/assets/project_image/school_laravel_project.png";
+import img_pos from "../../src/assets/project_image/pos.png";
+import img_kimsannquiz from "../../src/assets/project_image/kimsannquiz.png";
+import img_todo from "../../src/assets/project_image/todo_screenshot.png";
+
 export const data = {
   weather: [
     {
       id: 1,
-      img: img,
+      img: img_weather,
       title: "Weather App",
       description: "A weather application built with React.",
       demo: "https://example.com",
@@ -13,7 +18,7 @@ export const data = {
   adminDashboard: [
     {
       id: 1,
-      img: "../../src/assets/project_image/school_laravel_project.png",
+      img: img_school_laravel,
       title: "Admin Dashboard",
       description:
         "This is a school project from the Laravel term. It has been deployed with Digital Ocean. Note: DNS configuration is pending.",
@@ -24,7 +29,7 @@ export const data = {
   express: [
     {
       id: 1,
-      img: "../../src/assets/project_image/pos.png",
+      img: img_pos,
       title: "POS System",
       description:
         "A full-stack application using Sequelize, Express, ShadcnUI, integrated with Aba Payway, React TypeScript, TanstackForm, Axios, and Zod for validation.",
@@ -35,7 +40,7 @@ export const data = {
   quizApp: [
     {
       id: 1,
-      img: "../../src/assets/project_image/kimsannquiz.png",
+      img: img_kimsannquiz,
       title: "Quiz App",
       description:
         "A basic quiz application built using React state and TailwindCSS.",
@@ -46,7 +51,7 @@ export const data = {
   todoApp: [
     {
       id: 1,
-      img: "../../src/assets/todo_screenshot.png",
+      img: img_todo,
       title: "Todo App",
       description: "A simple todo application built with React.",
       demo: "https://example.com",
