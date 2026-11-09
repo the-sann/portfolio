@@ -1,3 +1,4 @@
+import { HomeIcon } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -101,7 +102,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile hamburger */}
-      <button
+      {/* <button
         className="md:hidden text-black"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -136,10 +137,10 @@ const Navbar = () => {
             />
           </svg>
         )}
-      </button>
+      </button> */}
 
       {/* Mobile navigation */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="md:hidden flex flex-col mt-3 gap-4 px-8 py-4 shadow-lg text-xl">
           <Link to="/" onClick={closeMenu}>
             Home
@@ -165,7 +166,54 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-      )}
+      )} */}
+
+      <nav
+        className="
+    font-heading
+    fixed
+    bottom-0
+    left-0
+    w-full
+    z-[9999]
+    flex
+    items-center
+    justify-around
+    gap-3
+    py-4
+    shadow-md
+    bg-white
+    md:hidden
+  "
+      >
+        <a
+          href="/"
+          className="px-5 py-2 rounded-2xl hover:bg-gray-200 transition"
+        >
+          <HomeIcon />
+        </a>
+
+        <a
+          href="#skill"
+          className="px-5 py-2 rounded-2xl hover:bg-gray-200 transition"
+        >
+          Skill
+        </a>
+
+        <a
+          href="#project"
+          className="px-5 py-2 rounded-2xl hover:bg-gray-200 transition"
+        >
+          Project
+        </a>
+
+        <a
+          href="#contact"
+          className="px-5 py-2 rounded-2xl hover:bg-gray-200 transition"
+        >
+          Contact
+        </a>
+      </nav>
     </>
   );
 };

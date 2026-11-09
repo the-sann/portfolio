@@ -11,7 +11,7 @@ export const data = {
       img: img_weather,
       title: "Weather App",
       description: "A weather application built with React.",
-      demo: "https://example.com",
+      demo: "https://frontend-mentor-kimsann.netlify.app/",
       src_code: "https://github.com/username/weather",
     },
   ],

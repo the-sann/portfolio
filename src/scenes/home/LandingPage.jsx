@@ -1,15 +1,15 @@
-import profile from "../../assets/landingpage.jpg";
+import profile from "../../assets/6332449981536605368.jpg";
 import flowcvv3 from "../../assets/cv/flow-cv-v3.pdf";
 
 const LandingPage = () => {
   return (
-    <div className="pt-24 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6">
+    <div className="pt-24 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20 px-6">
       {/* Profile Image */}
-      <div className="md:w-1/2 flex justify-center md:order-2">
+      <div className="md:w-1/2 flex justify-end md:order-2">
         <img
           src={profile}
           alt="Kimsann Mao"
-          className="rounded-xl shadow-lg w-full max-w-md object-cover"
+          className="shadow-lg w-64 h-64 rounded-full max-w-md object-cover"
         />
       </div>
 
