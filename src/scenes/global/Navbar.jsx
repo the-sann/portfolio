@@ -25,7 +25,7 @@ const Navbar = () => {
   z-50
   hidden
   gap-3
-  py-4
+  py-2
   shadow-md
 
 
