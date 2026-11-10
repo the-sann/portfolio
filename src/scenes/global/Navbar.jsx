@@ -24,8 +24,6 @@ const Navbar = () => {
   w-full
   z-50
   hidden
-  flex-col
-  items-center
   gap-3
   py-4
   shadow-md
@@ -171,16 +169,23 @@ const Navbar = () => {
       <nav
         className="
     font-heading
+    rounded-full
+    border
+    border-gray-200
+    shadow-xl
+    transition
     fixed
-    bottom-0
-    left-0
-    w-full
+    bottom-4
+    inset-x-2
+    mx-auto
+    max-w-[500px]
     z-[9999]
     flex
     items-center
     justify-around
     gap-3
-    py-4
+    py-2
+    px-2
     shadow-md
     bg-white
     md:hidden
